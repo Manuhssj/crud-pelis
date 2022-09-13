@@ -1,0 +1,50 @@
+
+body{
+    
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(228, 211, 255);
+    
+}
+
+.login {
+    
+    width: 400px;
+    height: min-content;
+    padding: 3rem;
+    border-radius: 1.2rem;
+    background: rgb(231, 231, 231);
+    margin: 300px auto;
+}
+.login h1{
+    font-size: 30px ;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 15px;
+}
+
+.dashName{
+    text-align: center;
+}
+
+.mpButton{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.tableExt{
+    border-radius: 10px;
+}
+
+.star-rating a {
+    float: right;
+    color: #95a5a6; /* gris (normal) */
+  }
+    .star-rating a:hover {
+      color: #f39c12; /* amarillo (seleccionado) */
+    }
+    .star-rating a:hover ~ a {
+      color: #f39c12; /* amarillo (seleccionado) */
+    }
